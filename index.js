@@ -2,7 +2,7 @@
 const returnFirstTwoDrivers= function(arr){
 let arif=[];
 
-arif.push(arr[1],arr[2]);
+arif.push(arr[0],arr[1]);
 
 console.log(arif);
 };
