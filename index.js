@@ -15,3 +15,15 @@ arif.push(arr[arr.length-2],arr[arr.length-1]);
 return arif;
 };
 const selectingDrivers=[returnFirstTwoDrivers, returnLastTwoDrivers];
+function createFareMultiplier(multiple){
+  return function (integer){
+    return integer * multiple;
+  }
+}
+
+const fareDoubler = createFareMultiplier(2);
+const fareTripler = createFareMultiplier(3);
+
+function selectDifferentDrivers(array, fn){
+  return fn(array);
+}
