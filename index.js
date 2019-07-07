@@ -14,3 +14,6 @@ let arif=[];
 arif.push(arr[arr.length-2],arr[arr.length-1]);
 return arif;
 };
+
+
+const 
