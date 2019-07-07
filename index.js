@@ -1,7 +1,7 @@
 // Code your solution in this file!
+const 
 
-
-function returnFirstTwoDrivers(arr){
+returnFirstTwoDrivers(arr){
 let arif=[];
 
 arif.push(arr[0],arr[1]);
