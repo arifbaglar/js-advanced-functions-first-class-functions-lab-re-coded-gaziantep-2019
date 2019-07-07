@@ -1,10 +1,14 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers= function(arr){
-let arif=[];
+//const returnFirstTwoDrivers= function(arr){
+//let arif=[];
 
-arif.push(arr[0],arr[1]);
+//arif.push(arr[0],arr[1]);
 
-console.log(arif);
+//console.log(arif);
+//};
+
+const returnFirstTwoDrivers = function(array){
+  return array.slice(0, 2);
 };
 const returnLastTwoDrivers= function(arr){
 let arif=[];
