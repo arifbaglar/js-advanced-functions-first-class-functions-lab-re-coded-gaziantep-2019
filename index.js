@@ -16,4 +16,4 @@ return arif;
 };
 
 
-const selectingDrivers=[]
+const selectingDrivers=[returnFirstTwoDrivers(), returnLastTwoDrivers()]
