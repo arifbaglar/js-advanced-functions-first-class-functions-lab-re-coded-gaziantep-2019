@@ -12,6 +12,5 @@ const returnLastTwoDrivers= function(arr){
 let arif=[];
 
 arif.push(arr[arr.length-2],arr[arr.length-1]);
-
-console.log(arif);
+return arif;
 };
